@@ -1,0 +1,61 @@
+<ion-view view-title="Perfil">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/crown.jpg');"></div>
+                <h3><a class="light">Rodolfo Hale</a></h3>
+                <h4 class="puntos">2,620 <i class="ion-ios-star"></i>
+                
+                 <i class="ion-leaf"></i>
+                    <i class="ion-waterdrop"></i>
+                    <i class="ion-ribbon-b"></i>
+                    <i class="ion-flame"></i>
+                    </h4>
+
+            </div>
+        </div>
+        <div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i> Actividad
+            </a>
+            <a ui-sref="app.friends" class="tab-item">
+                <i class="icon ion-android-people"></i> Amigos
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-images"></i> Premios
+            </a>
+
+        </div>
+        <h4 class="content padding double-padding-x">Siguiendo</h4>
+        <div class="list animate-fade-slide-in-right">
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/tristan.jpg">
+                <h2>Tristan</h2>
+                <p>3,560 <i class="ion-ios-star"></i>
+                    <i class="ion-waterdrop"></i>
+                    <i class="ion-ribbon-b"></i>
+                </p>
+                <i class="icon ion-shuffle muted">Retar</i>
+            </a>
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/juan.jpg">
+                <h2>Juan</h2>
+                <p>6,230 <i class="ion-ios-star"></i>
+                    <i class="ion-leaf"></i>
+                    <i class="ion-waterdrop"></i>
+                    <i class="ion-ribbon-b"></i>
+                    <i class="ion-flame"></i></p>
+                <i class="icon ion-shuffle muted">Retar</i>
+            </a>
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/belinda.jpg">
+                <h2>Belinda</h2>
+                <p>680 <i class="ion-ios-star"></i></p>
+                <i class="icon ion-shuffle muted">Retar</i>
+            </a>
+        </div>
+        <button class="button button-full button-positive">
+            Reciclar
+        </button>
+    </ion-content>
+</ion-view>
